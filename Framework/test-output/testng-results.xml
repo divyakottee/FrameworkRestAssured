@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14679" started-at="2021-06-24T08:17:03Z" finished-at="2021-06-24T08:17:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14679" started-at="2021-06-24T08:17:03Z" finished-at="2021-06-24T08:17:18Z">
+      <class name="Test.Restapi">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.Restapi@d072a9]" name="setup" is-config="true" duration-ms="9438" started-at="2021-06-24T13:47:03Z" finished-at="2021-06-24T13:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getallusers()[pri:0, instance:Test.Restapi@d072a9]" name="getallusers" duration-ms="3323" started-at="2021-06-24T13:47:13Z" finished-at="2021-06-24T13:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallusers -->
+        <test-method status="PASS" signature="deleteuser()[pri:1, instance:Test.Restapi@d072a9]" name="deleteuser" duration-ms="1896" started-at="2021-06-24T13:47:16Z" finished-at="2021-06-24T13:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- Test.Restapi -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
