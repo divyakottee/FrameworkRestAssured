@@ -12,10 +12,10 @@ public class payloadcoverter {
 	{
 		//file name of body
 		
-		String filepath = "C:\\Users\\DivyaKotteeswaran\\workspace\\Framework\\resource\\"+filename;
+		//String filepath = "C:\\Users\\DivyaKotteeswaran\\workspace\\Framework\\resource\\"+filename;
 		
 		//the below can be used if others have to understand it.
-		//String filepath = System.getProperty("user.dir")+"\\resource\\"+ filename;
+		String filepath = System.getProperty("user.dir")+"\\resource\\"+ filename;
 		
 		return new String(Files.readAllBytes(Paths.get(filepath)));
 	}
